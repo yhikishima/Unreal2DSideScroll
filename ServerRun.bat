@@ -1,1 +1,1 @@
-"C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\yasuaki.hikishima\Documents\Unreal Projects\Unreal2DSideScroll\Unreal2DSideScroll.uproject" Title -server -game -log
+"C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\yasuaki.hikishima\Documents\Unreal Projects\Unreal2DSideScroll\Unreal2DSideScroll.uproject" Main -server -game -log

@@ -7,15 +7,13 @@ void ULoginController::RequestLogin(bool& failed, FString id, FString password)
 	TSharedRef<IHttpRequest> request = FHttpModule::Get().CreateRequest();
 	request->SetURL("http://localhost:8080/login?name=" + id + "&password=" + password);
 
-
 	request->OnProcessRequestComplete()
 		.BindLambda([&failed](FHttpRequestPtr req, FHttpResponsePtr res, bool suc) -> void
 		{ 
-				if (suc)
-				{
-					UE_LOG(LogTemp, Log, TEXT("ddddddddd"));
-				}
-
+			if (suc)
+			{
+				UE_LOG(LogTemp, Log, TEXT("ddddddddd"));
+			}
 
 			failed = !suc;
 
